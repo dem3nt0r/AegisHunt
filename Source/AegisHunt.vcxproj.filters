@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{a85c3ec6-2ec0-4623-afc5-3f0d35fea3d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{b19c5177-3772-43c5-89ff-258ac88e66b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{25007b9c-7d6d-4108-9e79-667d2f25bb72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dsrm.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamParse.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SidHistory.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Report.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ldap.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="registry.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="NetshHelpers.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeProviders.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="file.h">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="file.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Persistence.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dsrm.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamParse.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="registry.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ldap.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SidHistory.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Report.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="NetshHelpers.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeProviders.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Persistence.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
